@@ -1,0 +1,7 @@
+key1:
+  key3: dev
+  key4:
+    key5: world
+key2:
+  key6: 123
+  key7: file://application.yml

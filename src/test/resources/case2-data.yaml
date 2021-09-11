@@ -1,0 +1,32 @@
+dev:
+  key1:
+    key3: dev
+    key4:
+      key5: world
+  key2:
+    key6: 123
+    key7: file://application.yml
+sit:
+  key1:
+    key3: sit
+    key4:
+      key5: world
+  key2:
+    key6: 123
+    key7: file://application.yml
+uat:
+  key1:
+    key3: uat
+    key4:
+      key5: world
+  key2:
+    key6: 123
+    key7: file://application.yml
+prod:
+  key1:
+    key3: prod
+    key4:
+      key5: world
+  key2:
+    key6: 123
+    key7: file://application.yml

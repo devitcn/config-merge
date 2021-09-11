@@ -1,0 +1,29 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 100MB
+  jackson:
+    default-property-inclusion: non_null
+app:
+  mail:
+    register:
+      subject: 感谢注册
+      content: |
+        亲爱的用户：
+        <br/>
+        请点击激活链接。或者输入注册码。
+        <br/>
+        -----------------------  <br/>
+        Best regards<br/>
+    passwordRest:
+      subject: 密码重置邮件，请在48小时内完成密码重置。
+      content: |
+        亲爱的用户：
+        <br/>
+        您于 ${dt} 申请重置密码，请点击以下链接重新设置您的密码：
+        <br/>
+        <a href="${url}">${url}</a>
+        <br/>
+        -----------------------  <br/>
+        (这是一封自动产生的email，请勿回复。)    
